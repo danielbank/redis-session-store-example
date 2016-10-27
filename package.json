@@ -1,0 +1,30 @@
+{
+  "name": "redis-session-store-example",
+  "version": "1.0.0",
+  "description": "Using Redis as a store for Express Sessions",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "connect-redis": "^3.1.0",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.1",
+    "redis": "^2.6.2",
+    "session": "^0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielbank/redis-session-store-example.git"
+  },
+  "author": "Daniel Bank <daniel.p.bank@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielbank/redis-session-store-example/issues"
+  },
+  "homepage": "https://github.com/danielbank/redis-session-store-example#readme"
+}
